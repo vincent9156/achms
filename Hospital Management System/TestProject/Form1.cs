@@ -6,6 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using DevExpress.Xpo;
+using ACHMS.Common.Entities;
 
 namespace TestProject
 {
@@ -14,6 +16,16 @@ namespace TestProject
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void btnCreateDB_Click(object sender, EventArgs e)
+        {
+            using (UnitOfWork uow = new UnitOfWork()) {
+                Doctor doctor = new Doctor();
+                LoginSession ls = new LoginSession();
+
+                uow.CommitChanges();
+            }
         }
     }
 }
