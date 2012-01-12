@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACHMS.Common", "ACHMS.Common\ACHMS.Common.csproj", "{35B2AD5E-9685-4BBF-8FA2-010BFC51A4B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACHMS.Data", "ACHMS.Data\ACHMS.Data.csproj", "{A449AABA-2E6F-49B6-AF90-48B2069A10FD}"
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -39,6 +41,16 @@ Global
 		{35B2AD5E-9685-4BBF-8FA2-010BFC51A4B5}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{35B2AD5E-9685-4BBF-8FA2-010BFC51A4B5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{35B2AD5E-9685-4BBF-8FA2-010BFC51A4B5}.Release|x86.ActiveCfg = Release|Any CPU
+		{A449AABA-2E6F-49B6-AF90-48B2069A10FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A449AABA-2E6F-49B6-AF90-48B2069A10FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A449AABA-2E6F-49B6-AF90-48B2069A10FD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A449AABA-2E6F-49B6-AF90-48B2069A10FD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A449AABA-2E6F-49B6-AF90-48B2069A10FD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A449AABA-2E6F-49B6-AF90-48B2069A10FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A449AABA-2E6F-49B6-AF90-48B2069A10FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A449AABA-2E6F-49B6-AF90-48B2069A10FD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A449AABA-2E6F-49B6-AF90-48B2069A10FD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A449AABA-2E6F-49B6-AF90-48B2069A10FD}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
