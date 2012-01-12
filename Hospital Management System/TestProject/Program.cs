@@ -24,6 +24,7 @@ namespace TestProject
             // to access a data store. 
             // If the database does not exist, XPO creates it. 
             XpoDefault.DataLayer = XpoDefault.GetDataLayer(connectionString,AutoCreateOption.DatabaseAndSchema);
+            
             Console.WriteLine("App launched");
 
             Application.EnableVisualStyles();
