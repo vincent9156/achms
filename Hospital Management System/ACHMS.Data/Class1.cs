@@ -8,6 +8,6 @@ namespace ACHMS.Data
     public class Class1
     {
 
-
+        
     }
 }
