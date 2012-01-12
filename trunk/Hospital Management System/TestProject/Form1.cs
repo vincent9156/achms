@@ -13,18 +13,26 @@ namespace TestProject
 {
     public partial class Form1 : Form
     {
+        Session session;
         public Form1()
         {
             InitializeComponent();
+            session = new Session();
         }
 
         private void btnCreateDB_Click(object sender, EventArgs e)
         {
-            using (UnitOfWork uow = new UnitOfWork()) {
-                Doctor doctor = new Doctor();
-                LoginSession ls = new LoginSession();
+            using (ExplicitUnitOfWork uow = new ExplicitUnitOfWork()) {
+                //uow.AutoCreateOption = DevExpress.Xpo.DB.AutoCreateOption.DatabaseAndSchema;
+                Doctor doctor = new Doctor(uow);
+                LoginSession ls = new LoginSession(uow);
+                User user = new User(uow);
+                user.UserName = "Saidul Islam";
+
+                ls.User = user;
 
                 uow.CommitChanges();
+                
             }
         }
     }
