@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4E06C3BF-5A64-46E4-AC04-FAD497B1D9E8}</ProjectGuid>
+    <ProjectGuid>{1644353D-DF89-4C94-B44E-9082BA2B322D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ACHMS.BusinessLayer</RootNamespace>
-    <AssemblyName>ACHMS.BusinessLayer</AssemblyName>
+    <RootNamespace>ACHMS.ReceptionUI</RootNamespace>
+    <AssemblyName>ACHMS.ReceptionUI</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,9 +44,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ACHMS.Data\ACHMS.Data.csproj">
-      <Project>{A449AABA-2E6F-49B6-AF90-48B2069A10FD}</Project>
-      <Name>ACHMS.Data</Name>
+    <ProjectReference Include="..\ACHMS.BusinessLayer\ACHMS.BusinessLayer.csproj">
+      <Project>{4E06C3BF-5A64-46E4-AC04-FAD497B1D9E8}</Project>
+      <Name>ACHMS.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ACHMS.Common\ACHMS.Common.csproj">
+      <Project>{35B2AD5E-9685-4BBF-8FA2-010BFC51A4B5}</Project>
+      <Name>ACHMS.Common</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
