@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACHMS.Launcher", "ACHMS.Lau
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACHMS.ReceptionUI", "ACHMS.ReceptionUI\ACHMS.ReceptionUI.csproj", "{1644353D-DF89-4C94-B44E-9082BA2B322D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACHMS.Reports", "ACHMS.Reports\ACHMS.Reports.csproj", "{47A0F627-76CD-4DBE-8779-3089F613CBD5}"
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -87,6 +89,16 @@ Global
 		{1644353D-DF89-4C94-B44E-9082BA2B322D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{1644353D-DF89-4C94-B44E-9082BA2B322D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{1644353D-DF89-4C94-B44E-9082BA2B322D}.Release|x86.ActiveCfg = Release|Any CPU
+		{47A0F627-76CD-4DBE-8779-3089F613CBD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A0F627-76CD-4DBE-8779-3089F613CBD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A0F627-76CD-4DBE-8779-3089F613CBD5}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{47A0F627-76CD-4DBE-8779-3089F613CBD5}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{47A0F627-76CD-4DBE-8779-3089F613CBD5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{47A0F627-76CD-4DBE-8779-3089F613CBD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A0F627-76CD-4DBE-8779-3089F613CBD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A0F627-76CD-4DBE-8779-3089F613CBD5}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{47A0F627-76CD-4DBE-8779-3089F613CBD5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{47A0F627-76CD-4DBE-8779-3089F613CBD5}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
